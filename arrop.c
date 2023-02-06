@@ -24,7 +24,6 @@ void main(){
 	while(1){
 		printf("Main Menu\n1.Create Array\n2.Display\n3.Exit\n");
 		scanf("%d",&ch);
-		printf("%d\n",ch);
 		switch(ch){
 			case 1:create();break;
 			case 2:display();break;
