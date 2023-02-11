@@ -101,11 +101,11 @@ Enter your choice :
 
 In this program we see how to implement <i>Stack</i> using a one-dimensional array and how to perform various Stack operation 
 such as :
-    - Stack Empty
-    - Stack Full
-    - Push
-    - Pop
-    - Display
+- Stack Empty
+- Stack Full
+- Push
+- Pop
+- Display
 This is a switch based program that provides the user a Menu to choose among <i>push, pop and display </i>options to perform 
 the above listed operations.
 
@@ -244,7 +244,7 @@ In this program we demostrate the usage of the <i>recursive function</i> by solv
 Tower Of Hanoi : In this problems we need to consider two Pegs ,and one of this Peg has n number of discs
 arranged in descending order from base to top ,now we need to move this discs to the other Peg using a
 third Peg called as auxilary Peg by following a set of rules.<br>
-The out of the program we be step to step trace of the movements this disc to achive the objective.
+The output of the program will be step to step trace of the movements of each disc to achive the objective.
 
 <b>Example output :</b>
 ```
