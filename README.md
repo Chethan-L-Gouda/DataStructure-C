@@ -105,7 +105,7 @@ such as :
 - Stack Full
 - Push
 - Pop
-- Display
+- Display<br>
 This is a switch based program that provides the user a Menu to choose among <i>push, pop and display </i>options to perform 
 the above listed operations.
 
@@ -277,6 +277,97 @@ Move disc 1 from A peg to B peg
 Move disc 2 from A peg to C peg
 Move disc 1 from B peg to C peg
 ```
-<i><b>Note : </b>there are also 2 more examples of the recursion function provided in this repo 
-: [factorial](facto.c) and [fibonacci series](fibo.c) </i>
+<i><b>Note : </b>there are also 3 more examples of the recursion function provided in this repo 
+: [factorial](facto.c), [gcd](gcd.c) and [fibonacci series](fibo.c) </i>
+
+## [Program 6 : ](llstack.c)
+
+This program is similar to that of the program 3, where we used an <i>array</i> to implement a <i>Stack</i> but in 
+this program we will use <i>Lisked List</i> to implement a <i>Stack</i> and demonstrate Stack operations like
+ <i>push, pop and display</i> through a switch based Menu.
+
+ <b>Example output : </b>
+
+ ```
+Main Menu
+1.push
+2.pop
+3.display
+4.Exit
+Enter your choice :1
+Enter the item to be inserted : 40
+
+Main Menu
+1.push
+2.pop
+3.display
+4.Exit
+Enter your choice :1
+Enter the item to be inserted : 80
+
+Main Menu
+1.push
+2.pop
+3.display
+4.Exit
+Enter your choice :1
+Enter the item to be inserted : 100
+
+Main Menu
+1.push
+2.pop
+3.display
+4.Exit
+Enter your choice :3
+100  80  40  
+
+Main Menu
+1.push
+2.pop
+3.display
+4.Exit
+Enter your choice :2 
+The item popped is 100
+
+Main Menu
+1.push
+2.pop
+3.display
+4.Exit
+Enter your choice :3
+80  40  
+
+Main Menu
+1.push
+2.pop
+3.display
+4.Exit
+Enter your choice :2
+The item popped is 80
+
+Main Menu
+1.push
+2.pop
+3.display
+4.Exit
+Enter your choice :2
+The item popped is 40
+
+Main Menu
+1.push
+2.pop
+3.display
+4.Exit
+Enter your choice :2
+STACK UNDERFLOW!!!
+
+Main Menu
+1.push
+2.pop
+3.display
+4.Exit
+Enter your choice :4
+ ```
+## [Program 7 : ](llqueue.c)
+
 
