@@ -1,7 +1,6 @@
 # Data Structure Programs Implemented Using C
 
-The program in this repository are based on the 3rd sem subject Data Structure and Applications [21CSL32](https://vtu.ac.in/pdf/2021syll).
-
+The program in this repository are based on the 3rd sem subject Data Structure and Applications [21CSL32](https://vtu.ac.in/pdf/2021syll/cssyll.pdf).
 ## [Program 1](arrop.c) : 
 A simple C program to implement <i>creation of an 1-D Array </i> and  <i>traversing through a 1-D- Array </i>.The program uses switch
 contruct of the C to provide a Menu to the user to choose among two options i.e, to create or to display the array .When either of the 
