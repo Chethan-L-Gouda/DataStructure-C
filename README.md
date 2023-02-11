@@ -53,7 +53,7 @@ Enter your choice :
 4.delete
 5.exit
 =>2
-The elements in the array are : 0	10 20 3040	
+The elements in the array are : 0   10  20  30  40
 Enter your choice :
 1.Create
 2.display
@@ -70,7 +70,7 @@ Enter your choice :
 4.delete
 5.exit
 =>2
-The elements in the array are : 0	10	20	 90	30	 40	
+The elements in the array are : 0   10  20  90  30  40	
 Enter your choice :
 1.Create
 2.display
@@ -87,7 +87,7 @@ Enter your choice :
 4.delete
 5.exit
 =>2
-The elements in the array are : 0	10 	20 	30 	40	
+The elements in the array are : 0   10  20  30  40	
 Enter your choice :
 1.Create
 2.display
