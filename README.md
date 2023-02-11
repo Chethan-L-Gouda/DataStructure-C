@@ -218,9 +218,65 @@ Enter your choice :
 4.exit
 =>4
 ```
-<i><b>*Note:</b>to demontrate the overflow condition of the stack, but we can change it to any required size by changing the following line..</i>
-    #define size 5
+<i><b>*Note : </b>to demontrate the overflow condition of the stack the size is defined 5, but we can change it to any required size by changing the following line..</i>
+    `#define size 5`
 to any required size like
-    #define size 100
+    `#define size 100`
 
+## [Program 4 :](posteval.c)
+
+In this program we take postfix equation from the user in the form of a string and evaluate the given equation
+using <i>Stack</i>.The evaluated result is provided as output for the user.
+
+<b>Example output : </b>
+```
+Enter the postfix expression : 54+ 
+The result of the evaluation is : 9
+```
+```
+Enter the postfix expression : 68+42-/       
+The result of the evaluation is : 7
+```
+
+## [Program 5 :](TOH.c)
+
+In this program we demostrate the usage of the <i>recursive function</i> by solving the tower of hanoi.<br>
+Tower Of Hanoi : In this problems we need to consider two Pegs ,and one of this Peg has n number of discs
+arranged in descending order from base to top ,now we need to move this discs to the other Peg using a
+third Peg called as auxilary Peg by following a set of rules.<br>
+The out of the program we be step to step trace of the movements this disc to achive the objective.
+
+<b>Example output :</b>
+```
+Tower Of Honai
+Enter the number of discs: 3
+Move disc 1 from A peg to C peg
+Move disc 2 from A peg to B peg
+Move disc 1 from C peg to B peg
+Move disc 3 from A peg to C peg
+Move disc 1 from B peg to A peg
+Move disc 2 from B peg to C peg
+Move disc 1 from A peg to C peg
+```
+```
+Tower Of Honai
+Enter the number of discs: 4
+Move disc 1 from A peg to B peg
+Move disc 2 from A peg to C peg
+Move disc 1 from B peg to C peg
+Move disc 3 from A peg to B peg
+Move disc 1 from C peg to A peg
+Move disc 2 from C peg to B peg
+Move disc 1 from A peg to B peg
+Move disc 4 from A peg to C peg
+Move disc 1 from B peg to C peg
+Move disc 2 from B peg to A peg
+Move disc 1 from C peg to A peg
+Move disc 3 from B peg to C peg
+Move disc 1 from A peg to B peg
+Move disc 2 from A peg to C peg
+Move disc 1 from B peg to C peg
+```
+<i><b>Note : </b>there are also 2 more examples of the recursion function provided in this repo 
+: [factorial](facto.c) and [fibonacci series](fibo.c) </i>
 
